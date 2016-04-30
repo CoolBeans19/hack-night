@@ -171,7 +171,13 @@ function shuffleColors(){
         'rose quartz',
         'fuchsia',
         'serenity',
-        'oxblood'
+        'oxblood',
+        'hack club red',
+        'malachite',
+        'razzmatazz',
+        'Cal Poly green',
+        'dandelion',
+        'fuzzy wuzzy (yes, that\'s a real color)'
         ];
         
     var colorIndex = Math.floor(Math.random() * colors.length);
