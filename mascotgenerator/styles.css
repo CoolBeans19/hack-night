@@ -2,7 +2,9 @@
 
 body{
     text-align: center;
-    background-image: url(http://static.independent.co.uk/s3fs-public/thumbnails/image/2013/07/11/18/sliced-bread-rex.jpg);
+    color: white;
+    /*background-image: url(http://static.independent.co.uk/s3fs-public/thumbnails/image/2013/07/11/18/sliced-bread-rex.jpg);*/
+    background-color: black;
 }
 
 /*header styles*/
@@ -12,7 +14,7 @@ h1{
     font-size: 72pt;
 }
 
-h4{
+a{
     font-family: 'Roboto Slab', serif;
     font-size: 14pt;
     margin-top: 120px;
