@@ -116,7 +116,7 @@ function draw() {
   // END: Player movement
   
   //enemy movement and positioning
-  enemy.position.x = enemy.position.x - 2;
+  enemy.position.x = enemy.position.x - 3;
   if (enemy.position.x < 0){
     enemy.position.x = width
     enemy.position.y = random(5, height-5);
@@ -152,7 +152,7 @@ function draw() {
  }
 
 function gameWin() {
-  document.querySelector('#danger').innerHTML = "<iframe display='none' height='0' width='0' src='//www.youtube.com/embed/siwpn14IE7E?start=59s&autoplay=1&loop=1&playlist=GRonxog5mbw' frameborder='0'></iframe>"
+  //document.querySelector('#danger').innerHTML = "<iframe display='none' height='0' width='0' src='//www.youtube.com/embed/siwpn14IE7E?start=59s&autoplay=1&loop=1&playlist=GRonxog5mbw' frameborder='0'></iframe>"
   alert('You won!');
   setTimeout(function() {
     window.location.href = 'https://maur927.github.io/e_name/';
